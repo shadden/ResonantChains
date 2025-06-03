@@ -99,4 +99,3 @@ def resonances_to_angle_transormation_matrix(planet_resonances):
     A[Npl-1,(Npl-2,Npl-1)] = jlast - klast,-jlast
     A[Npl:,(Npl-2,Npl-1)]  = klast - jlast, jlast
     return A
-
